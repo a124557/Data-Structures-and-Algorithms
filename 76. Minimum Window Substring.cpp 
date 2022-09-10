@@ -15,9 +15,6 @@ public:
         //Place all letters in string 't' into hashmap 'str'
         for(int i = 0; i < t.size(); i++) {
             str[t[i]]++;
-            if(s.find(t[i]) == string::npos) {
-                return "";
-            }
         }
         
 
